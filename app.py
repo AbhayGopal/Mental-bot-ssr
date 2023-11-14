@@ -1,5 +1,3 @@
-import time
-import random
 import streamlit as st
 import logging
 logging.basicConfig(level=logging.DEBUG)
