@@ -1,0 +1,3 @@
+Put 'ngrok.bat' file on C:\ngrok\ngrok.bat directory. Run this script before initializing the AI model
+
+If ngrok is not installed already, please intall it from https://ngrok.com/download
