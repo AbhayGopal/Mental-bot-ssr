@@ -1,2 +1,2 @@
 @echo off
-ngrok http http://localhost:1234
+ngrok http http://localhost:"type port number"
