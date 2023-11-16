@@ -1,13 +1,14 @@
 import openai
 import streamlit as st
 import logging
+import os
 logging.basicConfig(level=logging.DEBUG)
 logging.debug("Started")
 
 
 st.title("Your AI Counselor")
 
-openai.api_base = "https://abc123.ngrok.io/v1"  # point to the local server
+openai.api_base = os.environ["OPENAI_API_BASE"]  # point to the local server
 openai.api_key = ""  # no need for an API key
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "TheBloke/codellama-13b-instruct.Q5_K_M.gguf"
