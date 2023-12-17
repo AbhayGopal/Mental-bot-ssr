@@ -4,8 +4,6 @@ import streamlit as st
 
 st.title("MentalBot")
 
-
-
 openai.api_base = "http://localhost:1234/v1" # point to the local server
 openai.api_key = "" # no need for an API key
 
